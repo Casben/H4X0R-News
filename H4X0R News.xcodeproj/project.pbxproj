@@ -15,6 +15,8 @@
 		CB2CC021250B2BCF00E8B7E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2CC01F250B2BCF00E8B7E6 /* LaunchScreen.storyboard */; };
 		CB2CC02A250B2E4E00E8B7E6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CC029250B2E4E00E8B7E6 /* NetworkManager.swift */; };
 		CB2CC02C250B2F4200E8B7E6 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CC02B250B2F4200E8B7E6 /* PostData.swift */; };
+		CB2CC02F250B348C00E8B7E6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CC02E250B348C00E8B7E6 /* DetailView.swift */; };
+		CB57D88D250B386700E7A534 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB57D88C250B386700E7A534 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		CB2CC022250B2BCF00E8B7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB2CC029250B2E4E00E8B7E6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CB2CC02B250B2F4200E8B7E6 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		CB2CC02E250B348C00E8B7E6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CB57D88C250B386700E7A534 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +67,7 @@
 				CB2CC028250B2E3C00E8B7E6 /* Models */,
 				CB2CC014250B2BCB00E8B7E6 /* AppDelegate.swift */,
 				CB2CC016250B2BCB00E8B7E6 /* SceneDelegate.swift */,
-				CB2CC018250B2BCB00E8B7E6 /* ContentView.swift */,
+				CB2CC02D250B347500E8B7E6 /* Views */,
 				CB2CC01A250B2BCF00E8B7E6 /* Assets.xcassets */,
 				CB2CC01F250B2BCF00E8B7E6 /* LaunchScreen.storyboard */,
 				CB2CC022250B2BCF00E8B7E6 /* Info.plist */,
@@ -87,6 +91,16 @@
 				CB2CC02B250B2F4200E8B7E6 /* PostData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		CB2CC02D250B347500E8B7E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB2CC018250B2BCB00E8B7E6 /* ContentView.swift */,
+				CB2CC02E250B348C00E8B7E6 /* DetailView.swift */,
+				CB57D88C250B386700E7A534 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,10 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB2CC02C250B2F4200E8B7E6 /* PostData.swift in Sources */,
+				CB2CC02F250B348C00E8B7E6 /* DetailView.swift in Sources */,
 				CB2CC02A250B2E4E00E8B7E6 /* NetworkManager.swift in Sources */,
 				CB2CC015250B2BCB00E8B7E6 /* AppDelegate.swift in Sources */,
 				CB2CC017250B2BCB00E8B7E6 /* SceneDelegate.swift in Sources */,
 				CB2CC019250B2BCB00E8B7E6 /* ContentView.swift in Sources */,
+				CB57D88D250B386700E7A534 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,8 +318,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"H4X0R News/Preview Content\"";
+				DEVELOPMENT_TEAM = KG5A8K7RKR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "H4X0R News/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,8 +339,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"H4X0R News/Preview Content\"";
+				DEVELOPMENT_TEAM = KG5A8K7RKR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "H4X0R News/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
